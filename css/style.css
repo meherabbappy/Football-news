@@ -210,10 +210,62 @@ body{
   .contact-form-btn:hover{
     background: #2980b9;
   }
-  
-
-    
+     
 /* extra hover section end */
+
+
+/* extra section start */
+
+.project{
+	background: #2D25A0;
+width: 100%;
+height: auto;
+padding: 90px 0;
+padding-top: 20px;
+margin-bottom: 80px;
+}
+.project-container{
+	width: 60%;
+	text-align: center;
+	margin: auto;
+	padding: 40px 0;
+
+}
+.project-container h1{
+padding-top: 60px;
+padding-bottom: 15px;
+color: white;
+}
+.project-container h3{
+	padding: 20px 0;
+	line-height: 1.5em;
+	font-size: 20px;
+    color: white;
+}
+.project-container a{
+	padding: 12px 30px;
+	background: purple;
+	color: rgb(255, 255, 255);
+	font-size: 20px;
+	transition: 1s;
+    text-decoration: none;
+}
+.project-container a:hover{
+	background: green;
+}
+
+@media only screen and (max-width:360px){
+    .project-container{
+        padding: 0;
+    }
+    .project-container a{
+        padding: p;
+        margin: 0;
+    }
+
+}
+
+/* extra section end */
 
 
 
